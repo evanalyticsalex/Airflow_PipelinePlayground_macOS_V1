@@ -129,3 +129,21 @@ https://raw.githubusercontent.com/apache/airflow/constraints-2.8.2/constraints-3
 ## ✅ Summary
 
 You’ve now set up a local instance of Apache Airflow in a clean, reproducible way on macOS using Python 3.9.6. You can now build, schedule, and monitor workflows (DAGs) using the web UI and command line.
+
+
+
+# 🔁 Remember for Future Sessions
+
+Every time you close and reopen Terminal, always first activate your environment:
+
+```bash
+source airflow_env/bin/activate
+
+airflow standalone
+
+
+
+
+
+
+
